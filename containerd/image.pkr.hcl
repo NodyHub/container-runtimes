@@ -29,7 +29,7 @@ build {
     inline = [
       "sudo apt-get clean",
       "sudo apt-get update",
-      "DEBIAN_FRONTEND=noninteractive sudo apt-get install -y apt-transport-https ca-certificates containerd curl tcpdump",
+      "DEBIAN_FRONTEND=noninteractive sudo apt-get install -y apt-transport-https ca-certificates containerd tcpdump",
       "sudo mkdir -p /etc/containerd/",
       "containerd config default | sudo tee /etc/containerd/config.toml"
     ]  
