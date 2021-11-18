@@ -2,7 +2,7 @@
 Comparisson of container runtime engines
 
 * [containerd](containerd/)
-* cri-o
+* [cri-o](cri-o/)
 * Firecracker
 * gVisor
 * kata
